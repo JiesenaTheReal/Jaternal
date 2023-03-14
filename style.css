@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  background: #00041a;
+}
+
+* {
+  font-family: Comfortaa;
+}
+
+.title {
+  color: #3464eb;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 5px;
+  margin-top: 100px;
+}
+
+.subtitle {
+  color: #3464eb;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+#input {
+  margin-top: 45px;
+  width: 30%;
+  height: 45px;
+  outline: none;
+  background: transparent;
+  border: 2px solid #3464eb;
+  color: #3464eb;
+  caret-color: #3464eb;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+::placeholder {
+  color: #3464eb;
+  font-size: 20px;
+}
+
+#go {
+  border: 2px solid #3464eb;
+  color: #3464eb;
+  height: 45px;
+  width: 45px;
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  border-left: none;
+}
+
+.github {
+  color: #00041a; 
+  height: 200px;
+  width: 200px;
+  font-size: 45px;
+  margin-top: 45px;
+  cursor: not-allowed;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
